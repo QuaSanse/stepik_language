@@ -10,7 +10,7 @@ def _check_items(browser):
     else:
         return False
 
-def test_items(browser):
+def test_check_basket_button(browser):
     """ test items """
     link = r"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
